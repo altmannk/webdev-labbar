@@ -1,0 +1,11 @@
+/* Contains global styles applied site-wide */
+
+body {
+    background-color: #ece5cf;
+    font-family: American Typewriter, serif;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}

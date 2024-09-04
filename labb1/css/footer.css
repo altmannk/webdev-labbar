@@ -1,0 +1,71 @@
+/* 
+ * Contains styles for footer in index.html, mybooks.html, bookinfo.html
+ */
+
+    /* MOBILE */
+
+/* footer body */
+footer {
+    background-color: #4A7766;
+    color: #e0c151;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.333;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* the two sections in the footer */
+.footer-section {
+    padding: 1rem 0;
+}
+
+/* p-el text inside the footer */
+.footer-section p {
+    line-height: 1.7;
+    margin: 0 0 .625rem;
+}
+
+/* link to request book */
+.footer-section a {
+    color: inherit;
+    text-underline-offset: 3px;
+    font-weight: 500;
+}
+
+/* contact link body */
+.footer-contactlink {
+    display: grid;
+    justify-content: center;
+}
+
+/* each contact link */
+.footer-contactlink a {
+    text-decoration: none;
+    font-weight: 300;
+    padding: 0;
+}
+
+.footer-contactlink p {
+    margin-bottom: 0;
+}
+
+
+    /* DESKTOP */
+
+@media (min-width: 480px) {
+
+    footer {
+        font-size: 16px;
+    }
+
+    .footer-contactlink {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: baseline;
+    }
+
+    .footer-contactlink a {
+        padding: 20px;
+    }
+}

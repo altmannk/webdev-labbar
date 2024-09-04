@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Club - Request a Book</title>
+    <link rel="stylesheet" type="text/css" href="css/requestbook.css">
+</head>
+
+<body>
+    <section class="requestbook-section">
+        <h2>Request a book</h2>
+        <p class="first-text">
+            Can't find the book you're looking for? 😱 <br />
+            Fill out the formrequest down below!
+        </p>
+        <form id="formReg">
+            <p>
+                <label for="txtBookTitle">Book Title: </label>
+                <input type="text" id="txtBookTitle" placeholder="Enter book title" minlength="3" required />
+            </p>
+            <p>
+                <label for="txtBookAuthor">Author: </label>
+                <input type="text" id="txtBookAuthor" placeholder="Enter author's name" minlength="3"
+                    pattern="^[a-zA-Z\s]+$" required />
+            </p>
+            <p>
+                <label for="txtBookISBN">ISBN13: </label>
+                <input type="text" id="txtBookISBN" placeholder="Enter ISBN number" pattern="\d{13}" required />
+            </p>
+            <input type="submit" value="Submit Request" />
+        </form>
+        <p class="second-text">Your request will be processed <br /> within 7-14 business days.</p>
+    </section>
+
+    <section class="valueoutput-section">
+        <p id="formRegOutput"></p>
+        <a href="index.html">Go back to Home page</a>
+    </section>
+
+    <script src="js/formvalidationandsubmission.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1949,
+        "ISBN": 9780452284234,
+        "imgsrc": "img/bookcovers/1984-georgeorwell.jpg",
+        "tag": "Want to Read",
+        "description": "<br /> In 1984, London is a grim city in the totalitarian state of Oceania where Big Brother is always watching you and the Thought Police can practically read your mind. Winston Smith is a man in grave danger for the simple reason that his memory still functions. Drawn into a forbidden love affair, Winston finds the courage to join a secret revolutionary organization called The Brotherhood, dedicated to the destruction of the Party. Together with his beloved Julia, he hazards his life in a deadly match against the powers that be."
+    },
+    {
+        "id": 2,
+        "title": "Animal Farm",
+        "author": "George Orwell",
+        "year": 1945,
+        "ISBN": 9780451526342,
+        "imgsrc": "img/bookcovers/animalfarm-georgeorwell.jpg",
+        "tag": "Read",
+        "description": "<br /> When the downtrodden animals of Manor Farm overthrow their master, Mr Jones, and take over the farm themselves, they imagine it is the beginning of a life of freedom and equality. But gradually a cunning, ruthless elite among them, masterminded by the pigs Napoleon and Snowball, starts to take control. Soon the other animals discover that they are not all as equal as they thought, and find themselves hopelessly ensnared as one form of tyranny is replaced with another. Orwell's chilling 'fairy story' is a timeless and devastating satire of idealism betrayed by power and corruption."
+    },
+    {
+        "id": 3,
+        "title": "The Infernal Devices: Clockwork Angel",
+        "author": "Cassandra Clare",
+        "year": 2010,
+        "ISBN": 9781416975861,
+        "imgsrc": "img/bookcovers/clockworkangel-cassandraclare.jpg",
+        "tag": "Want to Read",
+        "description": "<br /> When Tessa Gray crosses the ocean to find her brother, her destination is England, the time is the reign of Queen Victoria, and something terrifying is waiting for her in London's Downworld, where vampires, warlocks, and other supernatural folk stalk the gaslit streets. Only the Shadowhunters, warriors dedicated to ridding the world of demons, keep order amidst the chaos.<br /><br />Kidnapped by a secret organization called The Pandemonium Club, Tessa learns that she herself is a Downworlder with a rare ability: the power to transform into another person. What’s more, the Magister, the shadowy figure who runs the Club, will stop at nothing to claim Tessa's power for his own.<br /><br /> Friendless and hunted, Tessa takes refuge with the Shadowhunters of the London Institute, who swear to find her brother if she will use her power to help them. She soon finds herself fascinated by—and torn between—two best friends: James, whose fragile beauty hides a deadly secret, and Will, whose caustic wit and volatile moods keep everyone in his life at arm’s length…everyone, that is, but Tessa. As their search draws them deep into the heart of an arcane plot that threatens to destroy the Shadowhunters, Tessa realizes that she may need to choose between saving her brother and helping her new friends save the world…and that love may be the most dangerous magic of all."
+    },
+    {
+        "id": 4,
+        "title": "Fourth Wing",
+        "author": "Rebecca Yarros",
+        "year": 2023,
+        "ISBN": 9781649374042,
+        "imgsrc": "img/bookcovers/fourthwing-rebeccayarros.jpg",
+        "tag": "Want to Read",
+        "description": "<br /> Twenty-year-old Violet Sorrengail was supposed to enter the Scribe Quadrant, living a quiet life among books and history. Now, the commanding general—also known as her tough-as-talons mother—has ordered Violet to join the hundreds of candidates striving to become the elite of Navarre: dragon riders.<br /><br /> But when you’re smaller than everyone else and your body is brittle, death is only a heartbeat away … because dragons don’t bond to “fragile” humans. They incinerate them.<br /><br /> With fewer dragons willing to bond than cadets, most would kill Violet to better their own chances of success. The rest would kill her just for being her mother’s daughter—like Xaden Riorson, the most powerful and ruthless wingleader in the Riders Quadrant.<br /><br /> She’ll need every edge her wits can give her just to see the next sunrise.<br /><br /> Yet, with every day that passes, the war outside grows more deadly, the kingdom’s protective wards are failing, and the death toll continues to rise. Even worse, Violet begins to suspect leadership is hiding a terrible secret.<br /><br /> Friends, enemies, lovers. Everyone at Basgiath War College has an agenda—because once you enter, there are only two ways out: graduate or die."
+    },
+    {
+        "id": 5,
+        "title": "Hjärnstark",
+        "author": "Anders Hansen",
+        "year": 2016,
+        "ISBN": 9789173630788,
+        "imgsrc": "img/bookcovers/hjarnstark-andershansen.jpg",
+        "tag": "Currently Reading",
+        "description": "<br /> Vill du bli mer stresstålig, må bättre, förbättra ditt minne och bli mer kreativ och intelligent? Se då till att röra på dig! Regelbunden träning har nämligen visat sig vara den bästa hjärngympan som finns, bättre än sudoku, korsord och alla tänkbara kosttillskott tillsammans. <br /><br /> Man vet i dag att hjärnan är enormt föränderlig. Det bildas ständigt nya hjärnceller och nya kopplingar skapas och försvinner. Allt du gör, till och med varje tanke du tänker, förändrar din hjärna lite grann. Och det gör i allra högsta grad även motion och träning. När du rör på dig blir du inte bara piggare och mår bättre, det påverkar också koncentrationen, minnet, måendet, sömnen, kreativiteten och stresståligheten – till och med din personlighet och intelligens. Du tänker helt enkelt snabbare och kan lägga i en extra ”mental växel”, till exempel för att kunna koncentrera dig när det är stökigt omkring dig. Och alla som rör på sig får de här fördelarna, barn, vuxna och gamla. <br /><br /> I Hjärnstark visar Anders Hansen, överläkare i psykiatri och författare till boken Hälsa på recept, vilka mekanismer i din hjärna som omvandlar promenaden eller löprundan till inget mindre än en mental ”uppgradering”. Du får lära dig vad det beror på och du får konkreta tips på hur du ska röra på dig för att uppnå alla positiva effekter som forskningen har kunnat visa."
+    },
+    {
+        "id": 6,
+        "title": "The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography",
+        "author": "Simon Singh",
+        "year": 1999,
+        "ISBN": 9780385495325,
+        "imgsrc": "img/bookcovers/thecodebook-simonsingh.jpg",
+        "tag": "Want to Read",
+        "description": "<br /> In his first book since the bestselling Fermat's Enigma, Simon Singh offers the first sweeping history of encryption, tracing its evolution and revealing the dramatic effects codes have had on wars, nations, and individual lives. From Mary, Queen of Scots, trapped by her own code, to the Navajo Code Talkers who helped the Allies win World War II, to the incredible (and incredibly simple) logisitical breakthrough that made Internet commerce secure, The Code Book tells the story of the most powerful intellectual weapon ever known: secrecy.<br /><br /> Throughout the text are clear technical and mathematical explanations, and portraits of the remarkable personalities who wrote and broke the world's most difficult codes. Accessible, compelling, and remarkably far-reaching, this book will forever alter your view of history and what drives it.  It will also make you wonder how private that e-mail you just sent really is."
+    },
+    {
+        "id": 7,
+        "title": "Crazy Rich Asians",
+        "author": "Kevin Kwan",
+        "year": 2013,
+        "ISBN": 9780385536974,
+        "imgsrc": "img/bookcovers/crazyrichasians-kevinkwan.jpg",
+        "tag": "Add to Shelf",
+        "description": "<br /> When New Yorker Rachel Chu agrees to spend the summer in Singapore with her boyfriend, Nicholas Young, she envisions a humble family home and quality time with the man she hopes to marry. But Nick has failed to give his girlfriend a few key details. One, that his childhood home looks like a palace; two, that he grew up riding in more private planes than cars; and three, that he just happens to be the country’s most eligible bachelor.<br /><br /> On Nick’s arm, Rachel may as well have a target on her back the second she steps off the plane, and soon, her relaxed vacation turns into an obstacle course of old money, new money, nosy relatives, and scheming social climbers."
+    },
+    {
+        "id": 8,
+        "title": "Pale Blue Dot: A Vision of the Human Future in Space",
+        "author": "Carl Sagan",
+        "year": 1994,
+        "ISBN": 9780345376596,
+        "imgsrc": "img/bookcovers/palebluedot-carlsagan.jpg",
+        "tag": "Add to Shelf",
+        "description": "<br /> In Cosmos, the late astronomer Carl Sagan cast his gaze over the magnificent mystery of the Universe and made it accessible to millions of people around the world. Now in this stunning sequel, Carl Sagan completes his revolutionary journey through space and time.<br /><br /> Future generations will look back on our epoch as the time when the human race finally broke into a radically new frontier—space. In Pale Blue Dot, Sagan traces the spellbinding history of our launch into the cosmos and assesses the future that looms before us as we move out into our own solar system and on to distant galaxies beyond. The exploration and eventual settlement of other worlds is neither a fantasy nor luxury, insists Sagan, but rather a necessary condition for the survival of the human race."
+    },
+    {
+        "id": 9,
+        "title": "The Rose Code",
+        "author": "Kate Quinn",
+        "year": 2021,
+        "ISBN": 9780062943477,
+        "imgsrc": "img/bookcovers/therosecode-katequinn.jpg",
+        "tag": "Add to Shelf",
+        "description": "<br /> The year 1940. As England prepares to fight the Nazis, three very different women answer the call to mysterious country estate Bletchley Park, where the best minds in Britain train to break German military codes. Vivacious debutante Osla is the girl who has everything - beauty, wealth, and the dashing Prince Philip of Greece sending her roses - but she burns to prove herself as more than a society girl and puts her fluent German to use as a translator of decoded enemy secrets. Imperious, self-made Mab, product of East End London poverty, works the legendary codebreaking machines as she conceals old wounds and looks for a socially advantageous husband. Both Osla and Mab are quick to see the potential in local village spinster Beth, whose shyness conceals a brilliant facility with puzzles, and soon Beth spreads her wings as one of the Park’s few female cryptanalysts. But war, loss, and the impossible pressure of secrecy will tear the three apart.<br /><br /> The year 1947. As the royal wedding of Princess Elizabeth and Prince Philip whips post-war Britain into a fever, three friends-turned-enemies are reunited by a mysterious encrypted letter - the key to which lies buried in the long-ago betrayal that destroyed their friendship and left one of them confined to an asylum. A mysterious traitor has emerged from the shadows of their Bletchley Park past, and now Osla, Mab, and Beth must resurrect their old alliance and crack one last code together. But each petal they remove from the rose code brings danger - and their true enemy - closer...."
+    },
+    {
+        "id": 10,
+        "title": "The Subtle Art of Not Giving a Fuck",
+        "author": "Mark Manson",
+        "year": 2016,
+        "ISBN": 9780062457714,
+        "imgsrc": "img/bookcovers/thesubtleartofnotgivingafuck-markmanson.jpg",
+        "tag": "Add to Shelf",
+        "description": "<br /> In this generation-defining self-help guide, a superstar blogger cuts through the crap to show us how to stop trying to be positive all the time so that we can truly become better, happier people.<br /><br /> For decades we've been told that positive thinking is the key to a happy, rich life. ''F*ck positivity,'' Mark Manson says. ''Let's be honest, shit is f*cked, and we have to live with it.'' In his wildly popular Internet blog, Manson doesn't sugarcoat or equivocate. He tells it like it is - a dose of raw, refreshing, honest truth that is sorely lacking today. The Subtle Art of Not Giving a F*ck is his antidote to the coddling, let's-all-feel-good mind-set that has infected modern society and spoiled a generation, rewarding them with gold medals just for showing up.<br /><br /> Manson makes the argument, backed by both academic research and well-timed poop jokes, that improving our lives hinges not on our ability to turn lemons into lemonade but on learning to stomach lemons better. Human beings are flawed and limited - ''not everybody can be extraordinary; there are winners and losers in society, and some of it is not fair or your fault''. Manson advises us to get to know our limitations and accept them. Once we embrace our fears, faults, and uncertainties, once we stop running and avoiding and start confronting painful truths, we can begin to find the courage, perseverance, honesty, responsibility, curiosity, and forgiveness we seek.<br /><br /> There are only so many things we can give a f*ck about, so we need to figure out which ones really matter, Manson makes clear. While money is nice, caring about what you do with your life is better, because true wealth is about experience. A much-needed grab-you-by-the-shoulders-and-look-you-in-the-eye moment of real talk, filled with entertaining stories and profane, ruthless humor, The Subtle Art of Not Giving a F*ck is a refreshing slap for a generation to help them lead contented, grounded lives."
+    },
+    {
+        "id": 11,
+        "title": "Howl's Moving Castle Picture Book",
+        "author": "Hayao Miyazaki",
+        "year": 2005,
+        "ISBN": 9781421500904,
+        "imgsrc": "img/bookcovers/howlsmovingcastlepicturebook-hayaomiyazaki.jpg",
+        "tag": "Add to Shelf",
+        "description": "<br /> Add Howl's Moving Castle to this list of must-have movie books. Director Hayao Miyazaki is a master storyteller and his films have all become classics of animation. There's no better way to preserve the magic of Howl and his flying castle than by adding this delightful volume to your home library.<br /><br /> Earlier this year, VIZ Media released The Art of Howl's Moving Castle, a hardbound, prestige format book which exists as an essential companion to Hayao Miyazaki's latest animated classic.<br /><br /> To further complement the movie-going experience, we are now proud to present the Howl's Moving Castle Picture Book, a companion publication wedding scene-by-scene film footage with character dialogue in one handsome volume.<br /><br /> Based on the young-adult novel by British author Diana Wynne Jones, Howl's Moving Castle reflects on a wondrous time when science and magic captured the spirit of 19th century Europe.<br /><br /> The story of Howl's Moving Castle is the story of a young girl who is magically transformed into a 90-year-old woman. Undaunted by this curse, her continuing adventures introduce her to the vainglorious wizard Howl and his curious castlemates.<br /><br /> Two years ago, VIZ Media released a similar book inspired by Spirited Away, the movie which garnered an Academy Award for director Hayao Miyazaki. Another picture book for My Neighbor Totoro is planned for later this year.<br /><br /> Now, add Howl's Moving Castle to this list of must-have movie books. Director Hayao Miyazaki is a master storyteller and his films have all become classics of animation. There's no better way to preserve the magic of Howl and his flying castle than by adding this delightful volume to your home library."
+    },
+    {
+        "id": 12,
+        "title": "Ikigai: The Japanese Secret to a Long and Happy Life",
+        "author": "Héctor García, Francesc Miralles",
+        "year": 2017,
+        "ISBN": 9780143130727,
+        "imgsrc": "img/bookcovers/ikigai-hectorgarciafrancescmiralles.jpg",
+        "tag": "Add to Shelf",
+        "description": "<br /> According to the Japanese, everyone has an ikigai—a reason for living. And according to the residents of the Japanese village with the world’s longest-living people, finding it is the key to a happier and longer life. Having a strong sense of ikigai—where what you love, what you’re good at, what you can get paid for, and what the world needs all overlap—means that each day is infused with meaning. It’s the reason we get up in the morning. It’s also the reason many Japanese never really retire (in fact there’s no word in Japanese that means retire in the sense it does in English): They remain active and work at what they enjoy, because they’ve found a real purpose in life—the happiness of always being busy.<br /><br /> In researching this book, the authors interviewed the residents of the Japanese village with the highest percentage of 100-year-olds—one of the world’s Blue Zones. Ikigai reveals the secrets to their longevity and happiness: how they eat, how they move, how they work, how they foster collaboration and community, and—their best-kept secret—how they find the ikigai that brings satisfaction to their lives. And it provides practical tools to help you discover your own ikigai. Because who doesn’t want to find happiness in every day?<br /><br />What’s your ikigai?"
+    }
+]

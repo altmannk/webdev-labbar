@@ -1,0 +1,87 @@
+/* 
+ * Contains styles for header and nav in index.html, mybooks.html, bookinfo.html 
+ */
+
+    /* MOBILE HEADER */
+
+header {
+    background-color: #4A7766;
+    padding: 10px;
+    color: #e0c151;
+}
+
+.logo-title-container {
+    display: flex;
+    align-items: normal;
+    margin-bottom: 10px;
+}
+
+.logo-title-container img {
+    height: 90px;
+    width: 90px;
+}
+
+.logo-title-container h1 {
+    margin: 50px 0 0;
+    text-wrap: nowrap;
+    font-family: cursive;
+    text-shadow: 1px 1px 2px #345549;
+}
+
+    /* MOBILE NAV */
+
+nav ul {
+    display: grid;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #4A7766;
+}
+
+nav li {
+    border: 1px solid #345549;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+nav li a {
+    display: block;
+    padding: 13px;
+    text-decoration: none;
+    color: #e0c151;
+    text-shadow: 1px 1px 2px #345549;
+    font-size: 20px;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #e0c151;
+    color: #345549;
+    text-shadow: none;
+}
+
+
+    /* DESKTOP NAV */
+
+@media (min-width: 480px) {
+
+    nav ul {
+        display: flex;
+        justify-content: right;
+        overflow: auto;
+    }
+
+    nav li {
+        width: 100px;
+        text-wrap: nowrap;
+        height: auto;
+        border: none;
+    }
+
+    nav li a {
+        font-size: 16px;
+    }
+}

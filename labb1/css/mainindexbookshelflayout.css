@@ -1,0 +1,82 @@
+/* 
+ * Contains styles for books layout in index.html and mybooks.html 
+ */
+
+    /* MOBILE */
+
+.book-section h2 {
+    margin: 40px 0 0 105px;
+    font-size: 20px;
+    font-family: American Typewriter, serif;
+    font-weight: normal;
+}
+
+/* base layout for books in both index.html and mybooks.html */
+.books-container {
+    display: grid;
+    justify-content: center;
+    background-color: #ece5cf;
+}
+
+.books-container ul {
+    margin: 0px;
+    padding: 10px;
+}
+
+.books-container li {
+    margin: 10px;
+    padding: 5px;
+    height: 292px;
+}
+
+.books-container img {
+    width: 200px;
+    height: 295px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+    /* DESKTOP */
+
+@media (min-width: 480px) {
+
+    .main-content {
+        display: flex;
+        align-items: stretch;/* Ensures that all children have equal height */
+    }
+
+    /* Left side decoration bar */
+    .decorative-bar {
+        width: 150px;
+        background-color: #3d6456;
+        flex-shrink: 0;
+        box-shadow: 10px 0px 7px rgba(0, 0, 0, 0.118);
+    }
+
+    .book-section {
+        margin-left: 30px;
+    }
+
+    .book-section h2 {
+        margin-left: 70px;
+        font-size: 18px;
+    }
+
+    #book-recommendations li {
+        margin: 10px 50px 40px 0; /* margin around the pic for book recommendations */
+    }
+
+    /* base layout for books in both index.html and mybooks.html */
+    .books-container {
+        justify-content: left;
+        height: fit-content;
+    }
+
+    .books-container ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 40px;
+        justify-content: flex-start;
+        padding-inline-end: 0px;
+    }
+}

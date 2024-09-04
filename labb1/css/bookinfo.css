@@ -1,0 +1,185 @@
+/*
+ * Layout for each individual book in bookinfo.html.
+ * And lightbox for showing the bookcover.
+ */
+
+    /* MOBILE */
+
+/* The whole main view */
+.book-container {
+    display: grid;
+    padding: 40px 20px;
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+}
+
+    /* Book img part (mobile) */
+
+/* This is the small image display */
+.thumbnail {
+    width: 200px;
+    height: 295px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    /* centers pic */
+}
+
+.thumbnail:hover {
+    opacity: 0.7;
+}
+
+/* Modal (background) */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Modal Content (image) */
+.lightbox-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    height: 500px;
+}
+
+/* Close button 'x' */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    /* Book txt part (mobile) */
+
+/* the whole container */
+.bookdescription-container {
+    display: grid;
+}
+
+/* the unordered list - ul */
+.book-details {
+    display: grid;
+    padding: 0 10px;
+    margin: 30px 0 16px;
+}
+
+/* each list */
+.book-details li {
+    padding: 3px 0;
+}
+
+/* last list in ul */
+.book-details li:last-child {
+    padding-bottom: 0;
+}
+
+.book-container p {
+    padding: 0 10px;
+    margin: 30px 0 16px;
+}
+
+
+    /* DESKTOP */
+
+@media (min-width: 480px) {
+
+    /* main in body, layout for decorative bar, image, lightbox */
+    .bookinfo-mainsection {
+        display: flex;
+        align-items: stretch;
+    }
+
+    /* Left side decoration bar */
+    .decorative-bar {
+        width: 150px;
+        background-color: #3d6456;
+        flex-shrink: 0;
+        box-shadow: 10px 0px 7px rgba(0, 0, 0, 0.118);
+    }
+
+    /* container for img, ul, p */
+    .book-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px 150px 40px 50px;
+    }
+
+    /* container for img and ul */
+    .bookdescription-container {
+        display: flex;
+    }
+
+    /* Book img part (desktop) */
+
+    .thumbnail {
+        margin: 0;
+        /* pic to the left */
+    }
+
+    .lightbox-content {
+        width: initial;
+        max-width: none;
+        height: 750px;
+    }
+
+        /* Book txt part (mobile) */
+
+    /* ul */
+    .book-details {
+        display: block;
+        margin: 5px 0 0 16px;
+        font-weight: bolder;
+    }
+
+    .book-details li:first-child {
+        font-size: 24px;
+    }
+
+    .book-details li {
+        font-size: 15px;
+    }
+
+    .book-container label {
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    /* p-txt */
+    .book-container p label {
+        font-weight: bolder;
+        font-size: 18px;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        margin-bottom: 10px;
+        /* space between the label and rest of p-txt */
+        display: inline-block;
+        /* Ensures the margin-bottom takes effect */
+    }
+
+    .book-container p {
+        margin-bottom: 40px;
+    }
+}
