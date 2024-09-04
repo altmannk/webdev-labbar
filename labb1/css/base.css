@@ -1,9 +1,13 @@
 /* Contains global styles applied site-wide */
 
 body {
-    background-color: #ece5cf;
+    background-color: #4A7766;
     font-family: American Typewriter, serif;
     margin: 0;
+}
+
+.main-content, .bookinfo-mainsection {
+    background-color: #ece5cf;
 }
 
 ul {

@@ -10,7 +10,7 @@
     display: grid;
     padding: 40px 20px;
     font-family: Helvetica, sans-serif;
-    font-size: large;
+    font-size: larger;
 }
 
     /* Book img part (mobile) */
@@ -84,16 +84,36 @@
     display: grid;
     padding: 0 10px;
     margin: 30px 0 16px;
+    font-weight: bolder;
+}
+
+.book-details li:first-child {
+    font-size: 26px;
 }
 
 /* each list */
 .book-details li {
     padding: 3px 0;
+    font-size: 18px;
 }
 
 /* last list in ul */
 .book-details li:last-child {
     padding-bottom: 0;
+}
+
+.book-container label {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.book-container p label {
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    margin-bottom: 10px;/* space between the label and rest of p-txt */
+    display: inline-block;/* Ensures the margin-bottom takes effect */
 }
 
 .book-container p {
@@ -124,12 +144,13 @@
     .book-container {
         display: flex;
         flex-wrap: wrap;
-        padding: 40px 150px 40px 50px;
+        padding: 40px 60px 40px 50px;
     }
 
     /* container for img and ul */
     .bookdescription-container {
         display: flex;
+        flex-wrap: wrap;
     }
 
     /* Book img part (desktop) */
@@ -145,13 +166,12 @@
         height: 750px;
     }
 
-        /* Book txt part (mobile) */
+        /* Book txt part (desktop) */
 
     /* ul */
     .book-details {
         display: block;
         margin: 5px 0 0 16px;
-        font-weight: bolder;
     }
 
     .book-details li:first-child {
@@ -169,17 +189,11 @@
 
     /* p-txt */
     .book-container p label {
-        font-weight: bolder;
         font-size: 18px;
-        text-decoration: underline;
-        text-underline-offset: 2px;
-        margin-bottom: 10px;
-        /* space between the label and rest of p-txt */
-        display: inline-block;
-        /* Ensures the margin-bottom takes effect */
     }
 
     .book-container p {
+        margin-right: 20px;
         margin-bottom: 40px;
     }
 }
