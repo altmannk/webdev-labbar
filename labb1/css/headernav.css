@@ -68,10 +68,19 @@ nav li a:hover:not(.active) {
 
 @media (min-width: 480px) {
 
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
     nav ul {
         display: flex;
         justify-content: right;
         overflow: auto;
+        position: fixed;
+        top: 90px;
+        width: 100%;
     }
 
     nav li {
