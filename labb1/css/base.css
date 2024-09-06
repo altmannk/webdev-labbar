@@ -15,7 +15,9 @@ ul {
 }
 
 @media (min-width: 480px) {
+    
     body {
+        background-color: #4A7766;
         margin: 130px 0 0 0;
     }
 }

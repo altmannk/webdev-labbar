@@ -156,8 +156,7 @@
     /* Book img part (desktop) */
 
     .thumbnail {
-        margin: 0;
-        /* pic to the left */
+        margin: 0 20px 20px 5px;
     }
 
     .lightbox-content {
@@ -171,7 +170,7 @@
     /* ul */
     .book-details {
         display: block;
-        margin: 5px 0 0 16px;
+        margin: 5px 0 0;
     }
 
     .book-details li:first-child {
